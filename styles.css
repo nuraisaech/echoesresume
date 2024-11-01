@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    
+}
+
+.navbar ul {
+
+    display: flex;
+   list-style: none;
+   margin: 20px 0px;
+
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+
+   text-decoration: none;
+   color: white;
+   padding: 8px 25px;
+   transition: all .5s ease;
+
+}
+
+.navbar ul li a:hover {
+
+background-color: white;
+color: black;
+box-shadow: white;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('Untitled.png') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 28%;
+    right: 24%;
+}
+.main h1 {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.main p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    right: 29%;
+    bottom: 10%;
+}
+.main{
+    padding: 30px 45px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: white;
+    outline: none;
+    transition: .8s ease;
+    font-size: larger;
+}
+.main:hover{
+    cursor: pointer;
+    background-color: rgb(244, 135, 45);
+    color: black;
+    box-shadow: 0  0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 60px 0px;
+    color: whitesmoke;
+}
+.btn{
+    padding: 30px 45px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-size: larger;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(244, 135, 45);
+    color: black;
+    box-shadow: 0  0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(240, 117, 17, 0.898));
+    height: 840px;
+    justify-content: center;
+    color: white;
+}
+#pic{
+    display: flex;
+}
+#pic img {
+    width: 520px;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-size: 30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.), rgba(0, 0, 0, 0));
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+#intro h2{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+#educ{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(112, 49, 0, 0.86));
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    text-align: center;   
+}
+#educ p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-size: 30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.), rgba(0, 0, 0, 0));
+    color: rgb(255, 255, 255);
+}
+#educ h1{
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
